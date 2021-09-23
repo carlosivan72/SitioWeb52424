@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Generos Musicales </title>
+</head>
+<body>
+    <header>
+        <hr>
+        <h1>Sonidos del Coraz&oacute;n</h1>
+        <img src="la web del salsero.png" width="200" height="200">
+    </header>
+    <nav>
+        <a href="index.html">Pagina Principal </a> |
+        <a href="blues.html">Blues </a> |
+        <a href="jazz.html">Jazz </a> |
+        <a href="tango.html">Tango </a> |
+        <a href="contactenos.html">Contactenos</a> |
+        <hr>
+    </nav>   
+    <main>
+        <form>
+            <hr>
+            <h2>Datos De Usuario</h2>
+            <hr>
+            <h3>Apreciado Visitante, este formulario captura sus datos personales,
+                para enviarle continuamente notificaciones sobre las actualizaciones
+                que se hacen en este Sitio Web </h3>
+            <hr>
+            <p>Cedula de Ciudadania: <input type="text" name="nombre" size="40"></p>
+            <p>Nombre: <input type="text" name="nombre" size="40"></p>
+            <p>Año de nacimiento: <input type="number" name="nacido" min="1900" max="3000"></p>
+            <p>Contraseña: <input type="password" name="contrasena"></p>   
+            <p>Correo: <input type="email" name="correo" size="40"></p>    
+            <p>Fecha: <input type="date" name="fecha"></p>
+            <fieldset>
+                <legend>Genero</legend>
+                <input type="radio" name="genero"> Masculino<br>
+                <input type="radio" name="genero"> Femenenino<br>
+                <input type="radio" name="genero"> Otro
+            </fieldset>
+            <p>Genero: <br>
+                 <input type="radio" name="genero"> Masculino<br>
+                 <input type="radio" name="genero"> Femenenino<br>
+                 <input type="radio" name="genero"> Otro
+            </p>
+            <p>Genero: <br>
+                <select name="genero">
+                <option>Masculino</option>
+                <option>Femenino</option>
+                <option>Otro</option>
+              </select>
+            </p>
+            <fieldset>
+                <legend>Hobbies</legend>
+                Desear Recibir informacion en tu correo sobre alguno de los siguientes items
+                <br>
+                <input type="checkbox" name="hobbies">Reggaeton<br>
+                <input type="checkbox" name="hobbies">Bachata<br>
+                <input type="checkbox" name="hobbies">Musica Popular
+            </fieldset>
+              <p> Hobbies:
+                Desear Recibir informacion en tu correo sobre alguno de los siguientes items
+                <br>
+                <input type="checkbox" name="hobbies">Reggaeton<br>
+                <input type="checkbox" name="hobbies">Bachata<br>
+                <input type="checkbox" name="hobbies">Musica Popular  
+            </p>
+            <p>Inquietudes y / o Sugerencias
+                <textarea name="comentario" rows="4" cols="20">
+                    Escribir en este cuadro todos tus comentarios                
+                </textarea>
+             </p>
+             <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>    
+            <hr>
+        </form>
+        <hr>
+        <table border="5">
+            <form>
+            <caption>Web Sonidos delCorazon</caption>
+            <thead>
+                <tr>
+                  <th>Datos de Usuario</th>
+                </tr>
+                <tr>
+                    <th>Apreciado Visitante, este formulario captura sus datos personales,
+                        para enviarle continuamente notificaciones sobre las actualizaciones
+                        que se hacen en este Sitio Web </h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                    <p>Cedula de Ciudadania: <input type="text" name="nombre" size="40"></p>
+                    <p>Nombre: <input type="text" name="nombre" size="40"></p>
+                    <p>Año de nacimiento: <input type="number" name="nacido" min="1900" max="3000"></p>
+                    <p>Contraseña: <input type="password" name="contrasena"></p>   
+                    <p>Correo: <input type="email" name="correo" size="40"></p>    
+                    <p>Fecha: <input type="date" name="fecha"></p>   
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Genero: <br>
+                            <select name="genero">
+                            <option>Masculino</option>
+                            <option>Femenino</option>
+                            <option>Otro</option>
+                          </select>
+                        </p>
+                    </td>  
+                <tr>
+                    <td>
+                        <p> Hobbies:
+                            Desear Recibir informacion en tu correo sobre alguno de los siguientes items
+                            <br>
+                            <input type="checkbox" name="hobbies">Reggaeton<br>
+                            <input type="checkbox" name="hobbies">Bachata<br>
+                            <input type="checkbox" name="hobbies">Musica Popular  
+                        </p>      
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Inquietudes y / o Sugerencias
+                            <textarea name="comentario" rows="4" cols="20">
+                                Escribir en este cuadro todos tus comentarios                
+                            </textarea>
+                         </p>      
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">     
+                    </td>
+                </tr>  
+            </tbody>
+        </form>
+        </table> 
+        <hr>    
+    </main>     
+    
+</body>
+</html>
